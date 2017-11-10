@@ -1,24 +1,20 @@
-# andre-stream
-Eclipse text stream test
-
 =====================================================================
 README
 =====================================================================
 
-----------------------
-(1) Build Instructions
-----------------------
+# (1) Build Instructions
+
 To build and run tests use the following command:
 
-Windows:
-.\gradlew.bat build
+gradle build
 
-Linux:
-./gradlew build
 
-----------------------
-(2) Test results
-----------------------
+# (2) Check Test results
+
 Open the following file:
 build\reports\tests\test\index.html
 
+
+# (3) Run Test Program
+
+gradle run -PrunArgs="ola"

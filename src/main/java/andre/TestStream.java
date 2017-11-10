@@ -50,26 +50,26 @@ public class TestStream implements Stream {
 	/**
 	 * Dada uma stream, encontre
 	 * o primeiro caractere Vogal, (R1)
-	 * após uma consoante, (R2)
-	 * onde a mesma é antecessora a uma vogal (R3)
-	 * e que não se repita no resto da stream. (R4)
+	 * apos uma consoante, (R2)
+	 * onde a mesma e antecessora a uma vogal (R3)
+	 * e que nao se repita no resto da stream. (R4)
 	 * 
-	 * O termino da leitura da stream deve ser garantido através do método hasNext(), ou seja, retorna falso para o 
-	 * termino da leitura da stream. Voce tera acesso a leitura da stream através dos métodos de interface fornecidos ao termino do
+	 * O termino da leitura da stream deve ser garantido atraves do metodo hasNext(), ou seja, retorna falso para o 
+	 * termino da leitura da stream. Voce tera acesso a leitura da stream atraves dos metodos de interface fornecidos ao termino do
 	 * enunciado. (15 pontos) (*Leia todo o enunciado)
 	 * 
 	 * Premissas:
 	 * 
-	 * Uma chamada para hasNext() ir retornar se a stream ainda contem caracteres para processar.
-	 * Uma chamada para getNext() ir retornar o proximo caractere a ser processado na stream.
-	 * Não será possível reiniciar o fluxo da leitura da stream.
-	 * Não poderá ser utilizado nenhum framework Java, apenas código nativo.
+	 * Uma chamada para hasNext() ira retornar se a stream ainda contem caracteres para processar.
+	 * Uma chamada para getNext() ira retornar o proximo caractere a ser processado na stream.
+	 * Nao sera possivel reiniciar o fluxo da leitura da stream.
+	 * Nao podera ser utilizado nenhum framework Java, apenas codigo nativo.
 	 * 
 	 * Exemplo:
 	 * 
 	 * Input:  aAbBABacafe
 	 * Output: e
-	 * No exemplo, ‘e’ é o primeiro caractere Vogal da stream que não se repete após a primeira Consoante ‘f’o qual tem uma vogal ‘a’ como antecessora.
+	 * No exemplo, 'e' e o primeiro caractere Vogal da stream que nao se repete apos a primeira Consoante 'f' o qual tem uma vogal 'a' como antecessora.
 	 * 
 	 * @param input
 	 * @return

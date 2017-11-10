@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="andre.test.MyTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-09T19:39:10" hostname="Andre-PC" time="0.002">
-  <properties/>
-  <testcase name="testCase1" classname="andre.test.MyTest" time="0.002"/>
-  <testcase name="testCase2" classname="andre.test.MyTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
