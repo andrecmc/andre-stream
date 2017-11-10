@@ -1,18 +1,28 @@
 # README
 
-## (1) Build Instructions
+## (1) Clean
+
+gradle clean
+
+## (2) Build
 
 To build and run tests use the following command:
 
 gradle build
 
-
-## (2) Check Test results
+### Test results
 
 Open the following file:
 build\reports\tests\test\index.html
 
 
-## (3) Run Test Program
+## (2) Run Test Program
 
-gradle run -PrunArgs="ola"
+To run a test programming supplying a custom string as a stream parameter use the following command:
+
+gradle run -PrunArgs="string parameter"
+
+e.g:
+
+gradle run -PrunArgs="aAbBABacafe"
+
