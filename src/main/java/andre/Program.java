@@ -7,14 +7,14 @@ package andre;
  *
  */
 public class Program {
-	public static final boolean DEBUG_MODE=false;
-	
+	public static final boolean DEBUG_MODE = false;
+
 	public static void main(String[] args) {
 		String line = null;
-		if (args.length>0) {
+		if (args.length > 0) {
 			line = args[0];
 			if (DEBUG_MODE) {
-				System.out.println("args:"+line);
+				System.out.println("args:" + line);
 			}
 		}
 
@@ -22,9 +22,13 @@ public class Program {
 			TestStream testStream = new TestStream(line);
 			char c = TestStream.findFirstVowel(testStream);
 			if (DEBUG_MODE) {
-				System.out.println("c=" + c + " "+(int)c);
+				System.out.println("c=" + c + " " + (int) c);
 			}
-			System.out.println(c);
+			if (c > 0) {
+				System.out.println(c);
+			} else {
+				System.out.println("X - Not Found");
+			}
 		} else {
 			System.out.println("Missing arguments");
 		}
