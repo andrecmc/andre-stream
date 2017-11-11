@@ -1,7 +1,7 @@
 package andre;
 
 /**
- * Sample program to test the method to find characters in a string stream.
+ * Sample program to test the method to find vowel characters in a string stream.
  * 
  * @author Andre
  *
@@ -19,8 +19,8 @@ public class Program {
 		}
 
 		if (line != null) {
-			TestStream testStream = new TestStream(line);
-			char c = TestStream.findFirstVowel(testStream);
+			StringStream testStream = new StringStream(line);
+			char c = StreamUtil.findFirstVowel(testStream);
 			if (DEBUG_MODE) {
 				System.out.println("c=" + c + " " + (int) c);
 			}
