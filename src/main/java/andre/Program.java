@@ -1,5 +1,11 @@
 package andre;
 
+/**
+ * Sample program to test the method to find characters in a string stream.
+ * 
+ * @author Andre
+ *
+ */
 public class Program {
 	public static final boolean DEBUG_MODE=false;
 	
@@ -14,7 +20,7 @@ public class Program {
 
 		if (line != null) {
 			TestStream testStream = new TestStream(line);
-			char c = TestStream.firstChar(testStream);
+			char c = TestStream.findFirstVowel(testStream);
 			if (DEBUG_MODE) {
 				System.out.println("c=" + c + " "+(int)c);
 			}
